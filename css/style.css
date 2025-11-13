@@ -1,0 +1,59 @@
+* {
+    margin: auto 0;
+    padding: auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background-color: bisque;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.div1 {
+    display: flex;
+}
+
+.div1>h1 {
+    font-size: 2.0rem;
+}
+
+.imgLogoNav {
+    width: 50px;
+}
+
+.div2 > ul {
+    display: flex;
+
+}
+
+.div2 {
+    
+}
+
+
+.hyperLink {
+    color: black;
+}
+
+main {
+    background-color: darksalmon;
+}
+
+.titulosMain {
+    padding: 30px 50px;
+}
+
+.fotosTopicos {
+    text-align: center;
+}
+
+.imgTopicos {
+    width: 400px;
+}

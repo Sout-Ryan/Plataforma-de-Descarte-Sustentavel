@@ -1,0 +1,11 @@
+Em <Inicío> terá:
+- Importancia do Descarte
+- O que o lixo toxico causa na nuteraza
+- O que é um Ecoponto (link para encontrar o Ecoponto mais proximo)
+- Locais de doação de roupa
+
+Em <Ecopontos> terá:
+- Input de CEP para saber a região da pessoa
+- Tipo de lixo que será descartado
+- Locais comuns onde tem lixeira de descarte especifico
+-  
