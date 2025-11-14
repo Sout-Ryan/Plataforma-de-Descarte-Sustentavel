@@ -9,6 +9,13 @@ header {
     background-color: bisque;
 }
 
+.separetorLine {
+    height: 3px;
+    background-color: black;
+    width: 80%;
+    margin: 0 auto;
+}
+
 .nav1 {
     display: flex;
     justify-content: space-between;
@@ -16,25 +23,27 @@ header {
 
 }
 
-.div1 {
+.div1Header {
     display: flex;
-}
-
-.div1>h1 {
-    font-size: 2.0rem;
+    font-size: 1.30rem;
 }
 
 .imgLogoNav {
     width: 50px;
 }
 
-.div2 > ul {
+.div2Header {
+    align-items: center;
     display: flex;
-
+    
 }
 
-.div2 {
-    
+.navButtons {
+    display: inline-flex;
+    margin: 10px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aquamarine;
 }
 
 
@@ -42,12 +51,15 @@ header {
     color: black;
 }
 
-main {
+body {
     background-color: darksalmon;
 }
 
 .titulosMain {
     padding: 30px 50px;
+    background-color: brown;
+    width: 80%;
+    margin: 20px auto;
 }
 
 .fotosTopicos {
@@ -56,4 +68,23 @@ main {
 
 .imgTopicos {
     width: 400px;
+}
+
+.opniaoPagina {
+    background-color: aqua;
+    margin: 10px auto;
+    padding: 30px;
+    width: 400px;
+    display: flex;
+    border-radius: 10px;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+
+.mensagemOpniao {
+    width: 300px;
+    height: 100px;
 }
