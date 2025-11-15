@@ -1,6 +1,7 @@
 * {
     margin: auto 0;
     padding: auto 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
@@ -87,4 +88,32 @@ textarea {
 .mensagemOpniao {
     width: 300px;
     height: 100px;
+}
+
+
+input, textarea {
+    transition: all 0.25s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    border-color: crimson;
+    box-shadow: 0 0 0 0.2rem #fff;
+}
+
+.buttonForm {
+    width: 300px;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.buttonForm:hover,
+.buttonForm:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem #fff;
 }
