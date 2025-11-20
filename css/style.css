@@ -1,27 +1,72 @@
+/* cores */
+:root {
+    /* linha 1 de cor*/
+    --color-green-1: #02321A;
+    --color-green-2: #014D27;
+    --color-green-3: #006634;
+    --color-green-4: #33865C;
+    --color-green-5: #66A286;
+
+    /* linha 2 de cor */
+    --color-green-6: #01471B;
+    --color-green-7: #006A28;
+    --color-green-8: #018D36;
+    --color-green-9: #32A45E;
+    --color-green-10: #67BB87;
+
+    /* linha 3 de cor */
+    --color-green-11: #1F541C;
+    --color-green-12: #2C8028;
+    --color-green-13: #3AAA34;
+    --color-green-14: #61BA5E;
+    --color-green-15: #89CC85;
+
+    /* linha 4 de cor */
+    --color-green-16: #4B610F;
+    --color-green-17: #6F9118;
+    --color-green-18: #94C11E;
+    --color-green-19: #AACD4D;
+    --color-green-20: #BFDA79;
+
+    /* linha 5 de cor */
+    --color-green-21: #5F800D;
+    --color-green-22: #8FBF13;
+    --color-green-23: #BFFE1A;
+    --color-green-24: #CBFF45;
+    --color-green-25: #D9FF74;
+}
+
 * {
-    margin: auto 0;
-    padding: auto 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
-header {
-    background-color: bisque;
+body {
+    /* site: https://cssgradient.io */
+    background: #006A28;
+    background: radial-gradient(circle, rgba(0, 106, 40, 1) 0%, rgba(2, 50, 26, 1) 100%);
+    padding-top: 100px;
 }
 
-.separetorLine {
-    height: 3px;
-    background-color: black;
-    width: 80%;
-    margin: 0 auto;
+header {
+    display: flex;
+    justify-content: center;
 }
 
 .nav1 {
+    width: 90%;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
-
+    background-color: var(--color-green-3);
+    border-radius: 30px;
+    margin: 5px;
+    padding: 10px;
+    z-index: 1000;
 }
 
 .div1Header {
@@ -29,8 +74,14 @@ header {
     font-size: 1.30rem;
 }
 
+.div1Header h1 {
+    color: var(--color-green-25);
+    align-items: center;
+    display: flex;
+}
+
 .imgLogoNav {
-    width: 50px;
+    width: 60px;
 }
 
 .div2Header {
@@ -42,40 +93,39 @@ header {
 .navButtons {
     display: inline-flex;
     margin: 10px 5px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    background-color: aquamarine;
+    background-color: var(--color-green-9);
+    transition: 0.5s;
 }
 
+.navButtons:hover {
+    scale: 1.07;
+}
 
 .hyperLink {
     color: black;
 }
 
-body {
-    /* Colocar imagem de fundo */
-    background-image: url(../imagens/floresta_camadas.jpg);
-    /* Ajustar para cobrir a tela toda */
-    background-size: cover;
-    /* Fixar a imagem para não rolar junto com a página */
-    background-attachment: scroll;
-    /* Centralizar a imagem */
-    background-position: center;
-    /* Remover a repetição da imagem */
-    background-repeat: no-repeat;
-    /* Define uma altura mínima para a página */
-    min-height: 100vh;
-}
-
-.titulosMain {
-    padding: 30px 50px;
-    background-color: brown;
+main {
+    margin: 0 auto;
     width: 80%;
-    margin: 20px auto;
 }
 
-.fotosTopicos {
+.divTopicos {
+    background-color: var(--color-green-9);
     text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    font-size: large;
+    box-shadow: 0px 0px 20px 0px var(--color-green-9);
+}
+
+.divTopicos h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: var(--color-green-1);
+
 }
 
 .imgTopicos {
@@ -83,7 +133,7 @@ body {
 }
 
 .opniaoPagina {
-    background-color: aqua;
+    background-color: seagreen;
     margin: 10px auto;
     padding: 30px;
     width: 400px;
@@ -92,15 +142,11 @@ body {
 }
 
 textarea {
+    width: 300px;
+    height: 100px;
     overflow: auto;
     resize: none;
 }
-
-.mensagemOpniao {
-    width: 300px;
-    height: 100px;
-}
-
 
 input, textarea {
     transition: all 0.25s;
@@ -111,14 +157,14 @@ input:focus,
 textarea:hover,
 textarea:focus {
     outline: none;
-    border-color: crimson;
+    border-color: SeaGreen;
     box-shadow: 0 0 0 0.2rem #fff;
 }
 
 .buttonForm {
     width: 300px;
     color: white;
-    background-color: brown;
+    background-color: MediumSeaGreen;
     cursor: pointer;
     transition: all 0.25s;
 }
@@ -127,4 +173,13 @@ textarea:focus {
 .buttonForm:focus {
     outline: none;
     box-shadow: 0 0 0 0.2rem #fff;
+}
+
+/* linha para separar as divs */
+.separetorLine {
+    height: 3px;
+    background: linear-gradient(to right, transparent, var(--color-green-1), transparent);
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
