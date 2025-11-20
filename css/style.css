@@ -53,7 +53,18 @@ header {
 }
 
 body {
-    background-color: darksalmon;
+    /* Colocar imagem de fundo */
+    background-image: url(../imagens/floresta_camadas.jpg);
+    /* Ajustar para cobrir a tela toda */
+    background-size: cover;
+    /* Fixar a imagem para não rolar junto com a página */
+    background-attachment: scroll;
+    /* Centralizar a imagem */
+    background-position: center;
+    /* Remover a repetição da imagem */
+    background-repeat: no-repeat;
+    /* Define uma altura mínima para a página */
+    min-height: 100vh;
 }
 
 .titulosMain {
