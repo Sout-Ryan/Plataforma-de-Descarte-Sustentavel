@@ -78,6 +78,7 @@ header {
     color: var(--color-green-25);
     align-items: center;
     display: flex;
+    font-weight: bold;
 }
 
 .imgLogoNav {
@@ -95,12 +96,13 @@ header {
     margin: 10px 5px;
     padding: 10px;
     border-radius: 5px;
-    background-color: var(--color-green-9);
+    background-color: var(--color-green-3);
     transition: 0.5s;
 }
 
 .navButtons:hover {
-    scale: 1.07;
+    scale: 1.05;
+    background-color: var(--color-green-9);
 }
 
 .hyperLink {
