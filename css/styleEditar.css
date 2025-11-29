@@ -1,0 +1,82 @@
+@import url(cores.css);
+
+.form-container {
+    background-color: var(--color-20);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--color-1);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--color-1);
+    font-weight: bold;
+}
+
+input[type="text"],
+.select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--color-13);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+.select:focus {
+    border-color: var(--color-13);
+    outline: none;
+    box-shadow: 0 0 10px var(--color-1);
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-10);
+    color: var(--color-1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: var(--color-8);
+    color: var(--color-25);
+}
+
+.btn-cancelar {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #aaa;
+    color: var(--color-1);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+.btn-cancelar:hover {
+    background-color: red;
+}

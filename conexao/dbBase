@@ -1,0 +1,18 @@
+-- cole no MySQL WorkBench
+
+CREATE DATABASE ecopontos;
+USE ecopontos;
+
+CREATE TABLE cadastro_ecopontos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    cep VARCHAR (100) NOT NULL,
+    endereco VARCHAR(100) NOT NULL,
+    tipo_de_lixo VARCHAR(100) NOT NULL
+);
+
+INSERT INTO cadastro_ecopontos (nome,cep,endereco,tipo_de_lixo) VALUES
+('APAE Mogi Das Cruzes','08717-830','Rua Carmen Moura Santos, 134','Lixo Volumoso'),
+('Ecoponto Jardim Armênia','08780-810','Rua Julio Perotti, 56','Lixo Perigoso'),
+('UPA Rodeio de Mogi das Cruzes','08730-090','Av. Pedro Romero, S/N','Lixo Eletrônico'),
+('Ecoponto Parque Olimpico','08746-075','Rua Archinides Carlos Muford, 120','Lixo Rejeito');

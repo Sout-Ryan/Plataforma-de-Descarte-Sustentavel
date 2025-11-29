@@ -1,187 +1,209 @@
-/* cores */
-:root {
-    /* linha 1 de cor*/
-    --color-green-1: #02321A;
-    --color-green-2: #014D27;
-    --color-green-3: #006634;
-    --color-green-4: #33865C;
-    --color-green-5: #66A286;
-
-    /* linha 2 de cor */
-    --color-green-6: #01471B;
-    --color-green-7: #006A28;
-    --color-green-8: #018D36;
-    --color-green-9: #32A45E;
-    --color-green-10: #67BB87;
-
-    /* linha 3 de cor */
-    --color-green-11: #1F541C;
-    --color-green-12: #2C8028;
-    --color-green-13: #3AAA34;
-    --color-green-14: #61BA5E;
-    --color-green-15: #89CC85;
-
-    /* linha 4 de cor */
-    --color-green-16: #4B610F;
-    --color-green-17: #6F9118;
-    --color-green-18: #94C11E;
-    --color-green-19: #AACD4D;
-    --color-green-20: #BFDA79;
-
-    /* linha 5 de cor */
-    --color-green-21: #5F800D;
-    --color-green-22: #8FBF13;
-    --color-green-23: #BFFE1A;
-    --color-green-24: #CBFF45;
-    --color-green-25: #D9FF74;
-}
+@import url(cores.css);
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 95.5%;
 }
 
 body {
-    /* site: https://cssgradient.io */
-    background: #006A28;
-    background: radial-gradient(circle, rgba(0, 106, 40, 1) 0%, rgba(2, 50, 26, 1) 100%);
-    padding-top: 100px;
+    background: radial-gradient(circle, var(--color-13) 0%, var(--color-7) 100%);
 }
 
-header {
+nav {
+    background-color: var(--color-2);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--color-2);
 }
 
-.nav1 {
-    width: 90%;
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--color-green-3);
-    border-radius: 30px;
-    margin: 5px;
-    padding: 10px;
-    z-index: 1000;
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imgLogo {
+    width: 90px;
 }
 
 .div1Header {
     display: flex;
-    font-size: 1.30rem;
-}
-
-.div1Header h1 {
-    color: var(--color-green-25);
     align-items: center;
-    display: flex;
-    font-weight: bold;
-}
-
-.imgLogoNav {
-    width: 60px;
+    color: var(--color-25);
+    font-size: 1.25rem;
 }
 
 .div2Header {
-    align-items: center;
     display: flex;
-    
+    align-items: center;
 }
 
-.navButtons {
-    display: inline-flex;
-    margin: 10px 5px;
-    padding: 10px;
+.div2Header a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    background-color: var(--color-14);
     border-radius: 5px;
-    background-color: var(--color-green-3);
+    transition:  0.3s;
+}
+
+.div2Header a:hover {
+    scale: 1.05;
+    box-shadow: 0 0 0 0.2rem var(--color-23);
+    background-color: var(--color-12);
+    color: var(--color-23);
+}
+
+.divH1P p {
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+.descarte_correto,
+.descarte_incorreto {
+    width: 70%;
+    background-color: var(--color-20,);
+    border-radius: 5px;
+    color: var(--color-1);
+    box-shadow: 0px 0px 10px var(--color-23);
+}
+
+.descarte_correto h1, h2 {
+    text-align: center;
+}
+
+.descarte_correto div {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.descarte_incorreto h1 {
+    text-align: center;
+}
+
+.descarte_incorreto div {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.separetorLine {
+    height: 3px;
+    background: linear-gradient(to right, transparent, var(--color-1), transparent);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.divImgTopicos {
+    text-align: center;   
+}
+
+.divImgTopicos img {
+    box-shadow: 0px 0px 10px black;
     transition: 0.5s;
 }
 
-.navButtons:hover {
-    scale: 1.05;
-    background-color: var(--color-green-9);
-}
-
-.hyperLink {
-    color: black;
-}
-
-main {
-    margin: 0 auto;
-    width: 80%;
-}
-
-.divTopicos {
-    background-color: var(--color-green-9);
-    text-align: center;
-    padding: 50px;
-    border-radius: 5px;
-    font-size: large;
-    box-shadow: 0px 0px 20px 0px var(--color-green-9);
-}
-
-.divTopicos h2 {
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-    color: var(--color-green-1);
-
+.divImgTopicos img:hover {
+    scale: 1.02;
 }
 
 .imgTopicos {
-    width: 400px;
+    border-radius: 1000px;
 }
 
-.opniaoPagina {
-    background-color: seagreen;
-    margin: 10px auto;
-    padding: 30px;
-    width: 400px;
-    display: flex;
-    border-radius: 10px;
+footer {
+    background-color: var(--color-2);
+    border-radius: 5px 5px 0px 0px;
 }
 
-textarea {
-    width: 300px;
-    height: 100px;
-    overflow: auto;
-    resize: none;
+footer div {
+    text-align: center;
+    color: whitesmoke;
+    /* background-color: aqua; */
 }
 
-input, textarea {
-    transition: all 0.25s;
+footer div a {
+    color: var(--color-25);
 }
 
-input:hover,
-input:focus,
-textarea:hover,
-textarea:focus {
-    outline: none;
-    border-color: SeaGreen;
-    box-shadow: 0 0 0 0.2rem #fff;
-}
+/* formulario opniao*/
+    .opniaoPagina {
+        background-color: var(--color-14);
+        margin: 10px auto;
+        padding: 30px;
+        width: 400px;
+        display: flex;
+        border-radius: 10px;
+    }
 
-.buttonForm {
-    width: 300px;
-    color: white;
-    background-color: MediumSeaGreen;
-    cursor: pointer;
-    transition: all 0.25s;
-}
+    .opniaoPagina h3 {
+        text-align: center;
+    }
 
-.buttonForm:hover,
-.buttonForm:focus {
-    outline: none;
-    box-shadow: 0 0 0 0.2rem #fff;
-}
+    .opniaoPagina textarea {
+        width: 300px;
+        height: 100px;
+        overflow: auto;
+        resize: none;
+    }
 
-/* linha para separar as divs */
-.separetorLine {
-    height: 3px;
-    background: linear-gradient(to right, transparent, var(--color-green-1), transparent);
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+    .opniaoPagina input, 
+    .opniaoPagina textarea {
+        transition: 0.3s;
+    }
+
+    .opniaoPagina input:hover,
+    .opniaoPagina input:focus,
+    .opniaoPagina textarea:hover,
+    .opniaoPagina textarea:focus {
+        outline: none;
+        border-color: var(--color-7);
+        box-shadow: 0 0 0 0.125rem var(--color-23);
+    }
+
+    .buttonForm {
+        display: block;
+        padding: 0.5rem;
+        background: var(--color-12);
+        color: black;
+        font: inherit;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .buttonForm:hover,
+    .buttonForm:focus {
+        outline: none;
+        box-shadow: 0 0 0 0.125rem var(--color-23);
+        scale: 1.05;
+        color: var(--color-25);
+    }
+
+    .opniaoPagina form label,
+    .opniaoPagina form input,
+    .opniaoPagina form textarea,
+    .opniaoPagina form button {
+        display: block;
+        width: 100%;
+    }
+
+    .opniaoPagina form input,
+    .opniaoPagina form textarea {
+        font: inherit;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border-radius: 3px;
+        border: 1px solid transparent;
+    }
+
+    .opniaoPagina form textarea {
+        min-height: 1rem;
+    }

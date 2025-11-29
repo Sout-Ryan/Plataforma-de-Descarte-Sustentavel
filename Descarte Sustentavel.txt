@@ -1,0 +1,84 @@
+Projeto CRUD
+Tema: Descarte Sustentavel
+Integrantes 3 pessoas
+Front-end: HTML, CSS e JS
+Back-end: PHP
+Banco de Dados: MySQL
+
+Documentação
+1 - Capa
+2 - Contra capa
+3 - Resumo (introdução, desenvolvimento, resultados)
+4 - Sumario
+5 - Introdução
+5.1 - Visão geral
+5.2 - Problematização
+5.3 - Justificativa
+6 - Desenvolvimento
+
+Apresentação Slides
+Dia 28/11
+15 minutos
+
+--------------------------
+
+Em index.html:
+
+-- Descarte Correto -- Pesquisa: Daniela
+1. Importancia do Descarte Correto
+O descarte correto de lixo é fundamental para proteger o meio ambiente e a saúde humana, reduzindo a poluição e conservando recursos naturais.
+
+2. Benefícios do Descarte Correto
+- Redução da poluição do solo e da água
+- Conservação de recursos naturais
+- Minimizalção dos impactos ambientais
+
+3. Passos para o Descarte Correto
+- Seprar o lixo em categorias (reciclável, orgânico, rejeitos)
+- Utilizar recipientes adequados para cada tipo de lixo
+
+4. Destinção Correta de Resíduos
+- Lixo reciclavél: papel, plástico, vidro, metal
+- Lixo orgânico: resto  de alimentos, folhas, galhos
+- Lixo Rejeito: materiais não reciclávels
+
+5. Consequências do Descarte Incorreto
+- Poluição ambiemtal
+- Problemas de saúde publica
+- Desperdício de recursos naturais
+
+6. O que Você Pode Fazer
+- Adotar práticas de redução, reutilização e reciclagem
+- Educar familiares e amigos sobre a importância do descarte correto
+- Participar de iniciativas comunitárias de limpeza e conservação
+
+
+-- Descarte Incorreto -- Pesquisa: Leonardo
+1. Introdução
+O descarte incorreto de lixo é um problema ambiental grave que afeta o meio ambiente e a saúde humana.
+
+2. Impactos Ambientais
+- Poluição de solo e da água
+- Destruição de habitais naturais
+- Morte de animais
+
+3. Causas do Descarte Incorreto
+- Falta de educação ambiental
+- Infraestrutura inadequada
+- Comportamento irresponsável
+
+4. Consequências Para a Saúde Humana
+- Doenças transmitidas  por vetores
+- Contaminação de água e alimentos
+- Problemas respiratórios
+
+5. Soluções e Medidas Preventivas
+- Educação ambiental
+- Implantação de sistemas de coleta seletiva
+- Reciclagem e reutilização
+
+6. O que Você Pode Fazer
+- Reduzir o consumo de produtos descartáveis
+- Separar o lixo corretamente
+- Participar de programas de reciclagem
+ 

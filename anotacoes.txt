@@ -1,0 +1,18 @@
+1. DEFINIR O OBJETIVO DO SITE
+O site deve ensinar as pessoas a descartar lixo corretamente. Ele pode incluir:
+- Informações sobre tipos de lixo (orgânico, reciclável, eletrônico, hospitalar…)
+- Pontos de coleta (gerenciados via banco de dados)
+- Dicas de reciclagem
+- Formulário para o usuário enviar dúvidas ou solicitar coleta
+- Cadastro de locais de descarte (via painel admin)
+
+2. PLANEJAR AS FUNCIONALIDADES
+Para um projeto simples e completo, recomendo:
+Páginas essenciais
+- Home – Apresentação e impacto ambiental
+- Tipos de lixo – Explicações e boas práticas
+- Pontos de coleta (com banco de dados) – Lista de locais cadastrados
+- Formulário de contato (salvando no banco ou enviando por email)
+- Área admin (opcional, mas deixa o projeto mais completo)
+    Login
+    CRUD de pontos de coleta

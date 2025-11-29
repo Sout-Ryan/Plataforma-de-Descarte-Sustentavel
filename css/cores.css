@@ -1,3 +1,37 @@
+/* cores */
 :root {
---name: #fff
+    /* linha 1 de cor*/
+    --color-1: #02321A;
+    --color-2: #014D27;
+    --color-3: #006634;
+    --color-4: #33865C;
+    --color-5: #66A286;
+
+    /* linha 2 de cor */
+    --color-6: #01471B;
+    --color-7: #006A28;
+    --color-8: #018D36;
+    --color-9: #32A45E;
+    --color-10: #67BB87;
+
+    /* linha 3 de cor */
+    --color-11: #1F541C;
+    --color-12: #2C8028;
+    --color-13: #3AAA34;
+    --color-14: #61BA5E;
+    --color-15: #89CC85;
+
+    /* linha 4 de cor */
+    --color-16: #4B610F;
+    --color-17: #6F9118;
+    --color-18: #94C11E;
+    --color-19: #AACD4D;
+    --color-20: #BFDA79;
+
+    /* linha 5 de cor */
+    --color-21: #5F800D;
+    --color-22: #8FBF13;
+    --color-23: #BFFE1A;
+    --color-24: #CBFF45;
+    --color-25: #D9FF74;
 }

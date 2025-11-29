@@ -1,0 +1,52 @@
+@import url(../css/cores.css);
+
+.tabela-container {
+    margin: 20px auto;
+    width: 90%;
+    overflow-x: auto;
+}
+
+.tabela-estilizada {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.tabela-estilizada thead tr {
+    background-color: var(--color-1);
+    color: var(--color-25);
+    text-align: left;
+}
+
+.tabela-estilizada th,
+.tabela-estilizada td {
+    padding: 12px 15px;
+}
+
+.tabela-estilizada tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: var(--color-4);
+    color: white;
+}
+
+.tabela-estilizada tbody tr:last-of-type {
+    border-bottom: 2px solid var(--color-5);
+}
+
+.btn-acao {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    background-color: var(--color-14);
+    border-radius: 5px;
+    transition:  0.3s;
+}
+
+.btn-acao:hover {
+    scale: 1.05;
+    box-shadow: 0 0 0 0.2rem var(--color-23);
+    background-color: var(--color-12);
+    color: var(--color-23);
+}
